@@ -1,0 +1,78 @@
+#contact {
+    .contact {
+        max-width: 768px;
+        width: 100%;
+        margin: 0 auto;
+        &__up-text {
+            margin:60px 0;
+            &_uppertitle {
+                font-weight: 900;
+                font-size: 16px;
+                line-height: 20px;
+                color: $black;
+                text-align: center;
+                letter-spacing: 3px;
+                margin-bottom: 12px;
+            }
+
+            &_title {
+                font-family: 'Sen';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 64px;
+                text-align: center;
+                margin-bottom: 24px;
+            }
+
+            &_description {
+                @include description ();
+                text-align: center;
+            }
+        }
+
+        &__mode {
+            align-items: flex-start;
+            gap: 42px;
+            background-color: $brightPurple;
+            text-align: left;
+            padding: 48px 64px;
+
+            &_side {
+                width: 50%;
+            }
+            &_uppertitle {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: #FFFFFF;
+                opacity: 0.6;
+            }
+
+            &_string {
+                background: #FFFFFF;
+                opacity: 0.1;
+                border: 1px solid #FFFFFF;
+                margin-bottom: 16px;
+            }
+
+            &_title {
+                @include contactTitle();
+            }
+
+            &_description {
+                @include description();
+                color: #FFFFFF;
+                opacity: 0.6;
+            }
+        }
+        &__form {
+            button {
+                width: 100%;
+                max-height: 64px;
+                margin-bottom: 128px;
+
+            }
+        }
+    }
+}

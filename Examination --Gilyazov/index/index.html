@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="/style/css-bootstrap/bootstrap.min.css" />
+  <link rel="stylesheet" href="/style/mixin.scss" />
+  <link rel="stylesheet" href="/style/variables.scss" />
+  <link rel="stylesheet" href="/style/style.scss" />
+  <link rel="stylesheet" href="/style/style.css" />
+  <script src="/script/custom.js"></script>
+  <title>Clients-First</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="top-menu">
+        <a class="navbar-logo" href=""> <img src="/img/Logo.png" alt="" /></a>
+        <ul class="menu-main">
+          <li> <a href="index/index.html">Home</a> </li>
+          <li> <a href="index/index-blog.html">Blog</a> </li>
+          <li> <a href="index/index-contact.html">Contact Us</a></li>
+        </ul>
+        <!-- <button type="button btn" class="btn btn-light" style="border-radius: 0" >
+          Subcribe
+        </button> -->
+      </nav>
+    </div>
+  </header>
+
+  <section id="main">
+    <div class="container">
+      <div class="main">
+        <p class="main__text-up text-light text-uppercase">
+          Posted on <span style="font-weight: 800">startup</span>
+        </p>
+        <h2 class="main__title">
+          Step-by-step guide to choosing <br />
+          great font pairs
+        </h2>
+        <p class="main__subtitle">
+          By <span style="color: #ffd050"> James West </span> | May 23, 2022
+        </p>
+        <p class="main__text">
+          Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu
+          <br />
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident
+          <span id="dots">...</span>
+          <span id="more">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequuntur minus ducimus
+            atque fuga laborum dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla reprehenderit
+            Asperiores sed quia incidunt quod dolores harum nulla quos odit possimus non, amet tempora suscipit
+            voluptatibus adipisci sunt! Perferendis repudiandae fuga eaque?</span>
+        </p>
+        <button id="btn" type="button " onclick="readMore()" class="btn btn-light btn-yellow">
+          Read more >
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="Featured">
+    <div class="container">
+      <div class="featured">
+        <div class="row d-flex flex-column flex-md-row justify-content-center align-items-stretch">
+          <!-- <h2 class="featured__upperTitle">Featured Post</h2> -->
+          <div class="col-12 col-lg-7 featured__left-side text-left p-4">
+            <img class="mb-3" src="/img/featured.png" alt="" />
+            <p class="featured__text">
+              By <span style="color: #592ea9">John Doe </span> l May 23, 2022
+            </p>
+            <p class="featured__title">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+            <p class="featured__subtitle">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident.
+              <span id="dots1">...</span>
+              <span id="more1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequuntur minus
+                ducimus
+                atque fuga laborum dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla reprehenderit
+                repellendus culpa dolore ipsum soluta recusandae, perspiciatis nostrum quia libero alias sit amet quod.
+                Tempora architecto dolor nulla praesentium odio. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit.
+                Asperiores sed quia incidunt quod dolores harum nulla quos odit possimus non, amet tempora suscipit
+                voluptatibus adipisci sunt! Perferendis repudiandae fuga eaque?</span>
+            </p>
+            <button id="btn1" type="button " onclick="readMore1()" class="btn btn-light main-btn btn-yellow">
+              Read more >
+            </button>
+          </div>
+          <div class="col-12 col-lg-4 featured__right-side">
+            <div class="featured__item">
+              <p class="featured__text">
+                By <span style="color: #592ea9">John Doe </span> l May 23,
+                2022
+              </p>
+              <p class="featured__right-text">
+                8 Figma design systems that you can download for free today.
+              </p>
+            </div>
+            <div class="featured__item">
+              <p class="featured__text">
+                By <span style="color: #592ea9">John Doe </span> l May 23,
+                2022
+              </p>
+              <p class="featured__right-text">
+                8 Figma design systems that you can download for free today.
+              </p>
+            </div>
+            <div class="featured__item">
+              <p class="featured__text">
+                By <span style="color: #592ea9">John Doe </span> l May 23,
+                2022
+              </p>
+              <p class="featured__right-text">
+                8 Figma design systems that you can download for free today.
+              </p>
+            </div>
+            <div class="featured__item">
+              <p class="featured__text">
+                By <span style="color: #592ea9">John Doe </span> l May 23,
+                2022
+              </p>
+              <p class="featured__right-text">
+                8 Figma design systems that you can download for free today.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="about">
+        <div class="row flex-column flex-lg-row">
+          <div class="col">
+            <p class="about__upper-title text-uppercase">about us</p>
+            <p class="about__title">
+              We are a community of <br />
+              content writers who share their <br />
+              learnings
+            </p>
+            <p class="about__subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="col">
+            <p class="about__upper-title text-uppercase">Our mision</p>
+            <p class="about__title-right">
+              Creating valuable content for <br />
+              creatives all around the world
+            </p>
+            <p class="about__subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <a class="about__button" href="">Read More ></a>
+        </div>
+        <div class="about__block-bgc"></div>
+        <div class="about__block-bgc2"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="choise">
+    <div class="container">
+      <div class="choise">
+        <h2 class="choise__title text-center">Choose A Catagory</h2>
+        <div class="row d-flex flex-wrap justify-content-center justify-content-lg-between align-items-center">
+          <div class="col choise__item">
+            <img class="choise__bgc-img" src="/img/choise-icon.png" alt="" />
+            <p class="choise__item-title">Business</p>
+            <p class="choise__item-subtitle">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            </p>
+          </div>
+          <div class="col choise__item">
+            <img class="choise__bgc-img" src="/img/choise-icon-2.png" alt="" />
+            <p class="choise__item-title">Startup</p>
+            <p class="choise__item-subtitle">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            </p>
+          </div>
+          <div class="col choise__item">
+            <img class="choise__bgc-img" src="/img/choise-icon.png" alt="" />
+            <p class="choise__item-title">Economy</p>
+            <p class="choise__item-subtitle">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            </p>
+          </div>
+          <div class="col choise__item">
+            <img class="choise__bgc-img" src="/img/choise-icon-2.png" alt="" />
+            <p class="choise__item-title">Technology</p>
+            <p class="choise__item-subtitle">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="special">
+    <div class="container">
+      <div class="special d-flex justify-content-end">
+        <div class="special__img-left"></div>
+        <div class="special__block">
+          <p class="special__upper-title text-uppercase">Why we started</p>
+          <p class="special__title">
+            It started out as a simple idea and evolved into our passion
+          </p>
+          <p class="about__subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip
+            <span id="dots2">...</span>
+            <span id="more2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum consequuntur minus
+              ducimus
+              atque fuga laborum dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla reprehenderit
+              Asperiores sed quia incidunt quod dolores harum nulla quos odit possimus non, amet tempora suscipit
+              voluptatibus adipisci sunt! Perferendis repudiandae fuga eaque?</span>
+          </p>
+          <button id="btn2" type="button " onclick="readMore2()" class="btn btn-light main-btn btn-yellow">
+            Read more >
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="authors">
+    <div class="container">
+      <div class="authors">
+        <h2 class="authors__title text-center mb-5">List of Authors</h2>
+        <div class="row d-flex  flex-wrap justify-content-center justify-content-lg-between">
+          <div class="col authors__item d-flex flex-column align-items-center justify-content-center">
+            <img src="/img/people1.png" alt="authors" />
+            <p class="authors__item-name">Floyd Miles</p>
+            <p class="authors__item-contacts">Content Writer @Company</p>
+            <div class="authors__social">
+              <a href="#"><img src="/img/fb.png" alt="facebook" /></a>
+              <a href="#"><img src="/img/twit.png" alt="twiter" /></a>
+              <a href="#"><img src="/img/inst.png" alt="instagram" /></a>
+              <a href="#"><img src="/img/link.png" alt="link" /></a>
+            </div>
+          </div>
+          <div class="col authors__item d-flex flex-column align-items-center justify-content-center">
+            <img src="/img/people2.png" alt="authors" />
+            <p class="authors__item-name">Dianne Russell</p>
+            <p class="authors__item-contacts">Content Writer @Company</p>
+            <div class="authors__social">
+              <a href="#"><img src="/img/fb.png" alt="facebook" /></a>
+              <a href="#"><img src="/img/twit.png" alt="twiter" /></a>
+              <a href="#"><img src="/img/inst.png" alt="instagram" /></a>
+              <a href="#"><img src="/img/link.png" alt="link" /></a>
+            </div>
+          </div>
+          <div class="col authors__item d-flex flex-column align-items-center justify-content-center">
+            <img src="/img/people3.png" alt="authors" />
+            <p class="authors__item-name">Jenny Wilson</p>
+            <p class="authors__item-contacts">Content Writer @Company</p>
+            <div class="authors__social">
+              <a href="#"><img src="/img/fb.png" alt="facebook" /></a>
+              <a href="#"><img src="/img/twit.png" alt="twiter" /></a>
+              <a href="#"><img src="/img/inst.png" alt="instagram" /></a>
+              <a href="#"><img src="/img/link.png" alt="link" /></a>
+            </div>
+          </div>
+          <div class="col authors__item d-flex flex-column align-items-center justify-content-center">
+            <img src="/img/people4.png" alt="authors" />
+            <p class="authors__item-name">Leslie Alexander</p>
+            <p class="authors__item-contacts">Content Writer @Company</p>
+            <div class="authors__social">
+              <a href="#"><img src="/img/fb.png" alt="facebook" /></a>
+              <a href="#"><img src="/img/twit.png" alt="twiter" /></a>
+              <a href="#"><img src="/img/inst.png" alt="instagram" /></a>
+              <a href="#"><img src="/img/link.png" alt="link" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="partner">
+    <div class="container">
+      <div class="partner">
+        <div class="row d-flex justify-content-between align-items-center">
+          <div class="col">
+            <p class="partner__uppersubtitle">We are</p>
+            <p class="partner__text">Featured in</p>
+          </div>
+          <div class="col partner__item">
+            <a href=""><img src="/img/Logo 1.png" alt="" /></a>
+          </div>
+          <div class="col partner__item">
+            <a href=""><img src="/img/Logo 2.png" alt="" /></a>
+          </div>
+          <div class="col partner__item">
+            <a href=""><img src="/img/Logo 3.png" alt="" /></a>
+          </div>
+          <div class="col partner__item">
+            <a href=""><img src="/img/Logo 4.png" alt="" /></a>
+          </div>
+          <div class="col partner__item">
+            <a href=""><img src="/img/Logo 5.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <div class="container">
+      <div class="testimonials">
+        <div class="testimonials__wrapper">
+          <div class="testimonials__left-side">
+            <p class="testimonials__uppertitle">TESTIMONIALS</p>
+            <p class="testimonials__title">
+              What people say <br />
+              about our blog
+            </p>
+            <p class="testimonials__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor.
+            </p>
+          </div>
+          <div class="testimonials__plug"></div>
+          <div class="testimonials__right-side">
+            <p class="testimonials__right-side_title">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="join">
+    <div class="container">
+      <div class="join text-center d-flex flex-column align-items-center justify-content-center">
+        <p class="join__title">
+          Join our team to be a part <br />
+          of our story
+        </p>
+        <p class="join__description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt.
+        </p>
+        <button type="button " class="btn btn-light main-btn btn-yellow">
+          Join Now
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="footer">
+    <div class="container-fluid" style="background: #232536; padding: 45px 0;">
+      <div class="container">
+        <div class="footer">
+          <div class="row">
+            <header style="background:#232536 ;">
+              <div class="container">
+                <nav class="top-menu">
+
+                  <a class="navbar-logo" href=""> <img src="/img/Logo.png" alt="" /></a>
+                  <ul class="menu-main">
+                    <li> <a href="/index/index.html">Home</a> </li>
+                    <li> <a href="/index/index-blog.html">Blog</a> </li>
+                    <li> <a href="/index/index-contact.html">Contact Us</a></li>
+                  </ul>
+                  <!-- <button type="button btn" class="btn btn-light" style="border-radius: 0" >
+                    Subcribe
+                  </button> -->
+                </nav>
+              </div>
+            </header>
+          </div>
+          <div class="row footer__middle-form d-flex align-items-start justify-content-between ">
+            <div class="col-5 footer__form-left">
+              <p class="footer__form-left_title">
+                Subscribe to our news letter to get latest updates and news
+              </p>
+            </div>
+            <div class="col-5 footer__form-right d-flex align-items-center justify-content-end">
+              <form class="flex-grow-1">
+                <div class="mb-3" style="margin: 0 !important; display: flex;">
+                  <label for="exampleFormControlInput1" class="form-label"></label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email"
+                    style="background-color: transparent; border-radius: 0; min-height: 52px; border: 1px solid grey; text-align: center;">
+                </div>
+              </form>
+              <button type="button " class="btn btn-light btn-yellow">
+                Subscribe
+              </button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p class="footer__info">Finstreet 118 2561 Fintown</p>
+              <p class="footer__info">Hello@finsweet.com 020 7993 2905</p>
+            </div>
+            <div class="col-2 footer__icon d-flex justify-content-between align-items-center">
+              <a href="#"><img src="/img/Negative-fb.png" alt="facebook" /></a>
+              <a href="#"><img src="/img/Negative-tw.png" alt="twiter" /></a>
+              <a href="#"><img src="/img/Negative-ins.png" alt="instagram" /></a>
+              <a href="#"><img src="/img/Negative-link.png" alt="link" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="/script/js-botstrap/bootstrap.min.js"></script>
+</body>
+
+</html>
